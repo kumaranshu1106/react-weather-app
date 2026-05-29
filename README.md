@@ -26,8 +26,8 @@ A React-based weather application that displays real-time weather conditions and
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/kumaranshu1106/react-weather-app.git
+cd react-weather-app
 ```
 
 ### 2. Install dependencies
@@ -39,7 +39,7 @@ npm install
 
 Create a `.env` file in the root directory:
 ```env
-OPEN_WEATHER_API_KEY=your_openweathermap_api_key
+VITE_OPEN_WEATHER_API_KEY=[your_openweathermap_api_key]
 ```
 
 > Get your free API key from [OpenWeatherMap](https://openweathermap.org/api)
@@ -56,11 +56,9 @@ npm run dev
 ```
 src/
 ├── components/
-│   ├── SearchBar.jsx
-│   ├── WeatherCard.jsx
-│   └── ForecastCard.jsx
+│   ├── DailyCard.jsx
 ├── App.jsx
-├── App.css
+├── index.css
 └── main.jsx
 ```
 
